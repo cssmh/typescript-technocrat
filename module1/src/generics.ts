@@ -36,4 +36,9 @@
     },
     home: 7,
   };
+
+  const message = <t>(input: t): t => {
+    return input;
+  };
+  console.log(message<number>(1));
 }
